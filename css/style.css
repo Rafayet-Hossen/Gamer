@@ -1,15 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* Nav Bar design */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --primary-font: font-family: "Poppins", sans-serif;
+}
+
 .navbar {
-
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 240px;
+    box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.4);
 }
+
 .nav-left {
-
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
-.nav-right {
 
+.nav-left h1 {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-us,
+.developer {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.follow-btn {
+    width: 250px;
+    height: 46px;
+    font-family: var(--primary-font);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    background-color: rgba(11,2,35,0.1);
+    border: none;
 }
