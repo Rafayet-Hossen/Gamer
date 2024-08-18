@@ -9,4 +9,27 @@
         gap: 20px;
         margin-top: 52px;
     }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+    .banner-img {
+        width: auto;
+    }
+    .goat-container {
+        margin: 20px 0px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .goat-container-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .btn-container {
+        flex-direction: column;
+    }
 }
